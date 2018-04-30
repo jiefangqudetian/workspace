@@ -1,0 +1,19 @@
+package file;
+
+import java.io.File;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		File file = new File("e:/kaisheng25/code/bcd");
+//		System.out.println(file.exists());
+//		FileUtil.delete(file);
+//		System.out.println(file.exists());
+		
+		File file2 = new File("e:/kaisheng25");
+		System.out.println(FileUtil.add(file2));
+	}
+
+}

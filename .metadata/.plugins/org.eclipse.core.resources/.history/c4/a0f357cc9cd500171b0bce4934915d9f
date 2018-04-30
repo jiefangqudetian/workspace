@@ -1,0 +1,14 @@
+package file;
+
+import java.io.File;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		File file = new File("e:/kaisheng25/code/bcd");
+		FileUtil.remove(file);
+	}
+
+}
